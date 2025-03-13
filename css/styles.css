@@ -1,0 +1,149 @@
+body{
+    background-color: #272B30;
+    text-decoration: none;
+}
+
+.bg-img{
+    background-image: url('../images/wraper.png');
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+
+}
+
+
+.navbar{
+    background-color: #3A497B;
+    border-radius: 20px;
+    color: white;
+}
+
+.navbar img{
+    width: 40px;
+    height:40px;
+}
+
+.navbar h5{
+    font-size: 25px;
+    margin-right:16px ;
+    padding: 5px 0;
+    color: white;
+}
+
+.nav-link{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px;
+}
+.nav-link:hover{
+    color: #0099C7;
+}
+
+.navbar-nav .nav-link.active{
+        color: #0099C7;
+}
+
+/* CARD SECTION */
+.card {
+    border: 2px solid #202328;
+    /* min-height:470; */
+    transition: all 1s;
+
+}
+
+.card-footer {
+    border-top: 2px solid #202328;
+
+}
+
+.card-body {
+    height: 130px;
+    overflow: hidden;
+
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 16.8px;
+    margin: 0 0 8px;
+    text-transform: capitalize;
+}
+
+.card-body span {
+    top: 10px;
+    right: 10px;
+    background-color: #446597;
+    transition: all 1s;
+
+}
+
+.card-text {
+    color: #939598;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.card-footer span {
+    background-color: #32383E;
+    font-size: 10.5px;
+    padding: 3.675px 6.825px;
+    font-weight: 700;
+}
+
+.card-img-top {
+    padding: 10px;
+    opacity: .5;
+    transition: all 1s;
+
+}
+
+.card:hover .card-img-top {
+    opacity: 1;
+}
+
+.card:hover .card-body span {
+    background-color: #0D6EFD;
+}
+
+.card:hover {
+    scale: 1.1;
+
+}
+
+
+/* DETAILS SECTION  */
+#details .header-text h1{
+    line-height: 34px;
+    font-size: 30px;
+    margin:0px 0px 8px;
+ 
+    font-weight: 600;
+}
+
+#details .details-content h3{
+    line-height: 34px;
+    font-size: 30px;
+    margin:0px 0px 8px;
+    font-weight: 600;
+}
+#details .details-content p{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 16px;
+    font-weight: 700;
+}
+#details .details-content p span{
+    font-size: 13.5px;
+    padding: 4.2px 7.8px;
+    font-weight: 800;
+}
+#details .details-content a{
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: none;
+    color: white;
+}
